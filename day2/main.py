@@ -2,10 +2,6 @@ from enum import Enum
 import numpy as np
 
 
-
-
-
-
 def move_submarine(input):
     # Direction hash map as unit vectors in (x, y), where down is the positive y direction
     DIRECTION = {
